@@ -1,0 +1,1167 @@
+body *{
+    font-family: 'Sofia', cursive;
+    
+}
+.iconshop{
+    position: relative;
+}
+.number-sp{
+    position: absolute;
+    width: 12px;
+    height: 15px;
+    background-color: #f15e42;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-20%,-20%);
+    font-size: 10px;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    transition: all 0.5s;
+}
+.btn.focus, .btn:focus{
+    box-shadow: none;
+    background-color: red;
+}
+
+.modal-footer:hover{
+    background-color: #f15e42;
+}
+.navs{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    z-index: 9;
+}
+#Layer_1{
+    width: 185px;
+   
+}
+.cursor{
+    cursor: pointer;
+}
+
+.nav{
+    flex-wrap: wrap;
+    position: relative;
+}
+.navr_txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+#svg2{
+    width: 35px;
+    height: 25px;
+
+}
+.nav-link {
+    color: black;
+    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: unset;
+    padding: 20px;
+    font-weight: 500;
+}
+.carousel-indicators{
+    z-index: 1;
+}
+.login-content a{
+  text-decoration: none;
+  color: #c5c4c4;
+}
+.login-content a:hover{
+    color:#f15e42;
+}
+.login-menu-content.logo{
+border-bottom: solid 1px #ced4da;
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    background-color: darkkhaki;
+    border-radius:15px ;
+}
+.carousel-indicators li.active{
+    width: 15px;
+    height: 15px;
+    background: #f15e42;
+    border-radius:15px ;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.menu-js{
+    /* visibility: hidden; */
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 700px;
+    z-index: 10;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-task input{
+    border:initial;
+    margin-top: 15px;
+}
+.menu-js-content{
+    position: relative;
+    width: 50%;
+    height: 80%;
+    background-color: azure;
+}
+.content-header{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+   
+    top: 45%;
+    transform: translate(0, -45%);
+}
+.content-headertxt.content{
+    position: absolute;
+    width: 74%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    
+}
+.modal-backdrop{
+    z-index: 1;
+}
+.txtTitlePet{
+    font-size: 18px;
+    letter-spacing: 3px;
+    
+}
+.aniM-content1{
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 3px;
+    animation: amiName  1s ease-in;
+   
+    -webkit-animation: amiName 2s 1;
+   
+}
+@keyframes amiName {
+    0% { left:30%; letter-spacing: 3px; font-size: 23px; }
+    10% { left:0%; letter-spacing: 15px; font-size: 18px;}
+    
+   
+
+}
+.txtContent4-text{
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.txtContent4-countdown{
+    padding: 40px;
+}
+.shop4 button{
+    color: #ffffff;
+    background: #f15e42;
+    margin-top: 60px;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: #f15e42;
+    padding: 15px 40px;
+    font-size: 14px;
+    border-radius: 0;
+    transition: all .3s ease 0s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.txt_icon{
+    cursor: pointer;
+    
+}
+.search-js{
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.search-task button{
+   padding: 10px 25px 10px 25px;
+    margin-top:30px;
+    border-radius: 10px ;
+   border-color: #f15e42;
+    cursor: pointer;
+    
+}
+.search-task p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-transform: unset;
+    padding-top: 20px;
+}
+.menu-login{
+    height: 55px;
+    border-radius: 0;
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+    transition: all .3s ease;
+    border: none;
+    line-height: 55px;
+}
+.menutext{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+    color: #c5c4c4;
+    transition: all .3s ease;
+    border: none;
+    height: 55px;
+    border-radius: 0;
+    line-height: 55px;
+}
+.menutext a{
+    color: #c5c4c4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.modal-header{
+    display:flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+}
+.modal-header.total-oder{
+   justify-content: space-between;
+   align-items: center;
+}
+.modal-header.total-oder button{
+  background-color: #f15e42 !important;
+  padding: 10px 30px 10px 30px !important;
+  transition: all .5s;
+}
+.total-oder button:hover{
+  background-color:#000 !important;
+}
+/* add to cart */
+.addtocart{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+.addtocart-content{
+    width: 50%;
+}
+.qYT-addtocart.qYT{
+    width: 20%;
+}
+
+.cart-left-content img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.cart-left-content{
+    display:flex;
+    justify-content: center;
+}
+.sizepd{
+    display: flex;
+    justify-content: center;
+    padding-left: 37px;
+    padding-right: 14px;
+}
+.choose-size{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.choose-color{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+   
+}
+.txtchoose-color{
+    margin-left: 15px;
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 25px;
+    text-align: center;
+    
+}
+.box-choosecolor{
+    box-shadow: 0 0 10px 0;
+    border:solid 1px;
+    color:#fff;
+}
+.txtchoose-color:hover{
+    border:solid 1px;
+    box-shadow: 0 0 10px 0;
+}
+.footer-add{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.txtAddtocart button{
+    margin-left: 50px;
+    padding:17px 35px 17px 35px;
+    border: none;
+    background: #f15e42;
+    color: #fff;
+    transition: all .5s;
+}
+.add-price{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.th{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.size-pd{
+    border-bottom: solid 1px;
+}
+
+.text-totals{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+}
+.codeProduct{
+    font-size: 10px;
+}
+.sizeSML{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border:solid 1px;
+}
+.active-size{
+  background-color: #000000;
+  color: #fff;
+}
+.txtAddtocart button:hover{
+    background-color: #000000;
+}
+.content-products{
+    padding:35px 10px 35px 0px;
+    border-top: solid 1px;
+}
+.cart-left{
+    display:grid;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 100%; 
+}
+.size-product{
+    width: 130px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: 10px;
+    cursor: pointer;
+   
+}
+.cart-right{
+    grid-template-rows: 25% 35% 20% 20%;
+    grid-template-columns: 100%;
+    padding: 0px 20px 20px 15px;
+}
+/*  */
+.subtotal{
+    line-height: 20px;
+    margin: 10px;
+}
+.total{
+    display: flex;
+}
+.search-task input{
+    font-style: italic;
+    border:none;
+    border-bottom: solid 1px;
+    width: 400px;
+    padding: 30px 20px 5px;
+    font-style: italic;
+}
+.login-content input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ced4da;
+    font-style: italic;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.login-content button{
+    height: 55px;
+    border-radius: 0;
+    background-color: #000;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 100%;
+    transition: all .3s ease;
+    border: none;
+}
+.login-content input:focus{
+    outline: none;
+    
+}
+.login-content{
+    padding-top: 20px;
+    
+}
+.modal-header-search{
+    padding: 20px;
+}
+.modal-header-login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login-menu-content{
+    padding-top: 20px;
+    text-align: center;
+}
+.login-menu-content p{
+   font-size: 20px;
+}
+.login-menu{
+    width: 80%;
+}
+.search-task input,button:focus{
+    outline: none;
+}
+.shop4 button:hover{
+    color: #f15e42;
+    background:#ffffff;
+    border: #ffffff;
+}
+.aniM-content2{
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 3px;
+    animation: amiName2  2s ease;
+}
+@keyframes amiName2 {
+    0% { font-size: 10px; left: 20%; }
+    50% { font-size: 60px; left: 0%; }
+    
+   
+
+}
+.aniM-content3{
+    position: relative;
+    letter-spacing: 3px;
+    animation: amiName3 linear;
+   
+    -webkit-animation: amiName3 3s 1;
+}
+@keyframes amiName3 {
+    0% { top: 20%; }
+    40% { top: 0%; }
+    
+   
+
+}
+.txtTitlePet.aniM-content2{
+    font-size: 60px;
+    color: #f15e42;
+    line-height: 35px;
+}
+.txtButton{
+    border:1px solid black;
+}
+.txtButton:hover{
+    
+    background-color: #f15e42;
+    transition: 0.7s;
+    color:#ffff;
+    border:#f15e42;
+}
+.txtFontcontent{
+    font-size: 13px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 5px;
+}
+.BuyN{
+    margin-top: 30px ;
+}
+.content_1{
+    width: 100%;
+   
+    background-color: #f15e42;
+    
+}
+.content_red {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.content_red1{
+    display: flex;
+    justify-content: space-around;
+}
+.content_redtxt{
+    padding-right: 30px;
+}
+.fontred1{
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-weight: 400;
+    color: #fff;
+}
+.fontred2{
+    max-width: 400px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content2{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.content2_1{
+    
+    padding: 50px;
+}
+.content2_1a{
+    text-align: center;
+    padding: 15px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.content3{
+    width: 100%;
+   
+   
+    display: flex;
+    justify-content: space-around;
+}
+.txtContent3_1patch{
+    color: #f15e42;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.txtContent3_1patch_1{
+    font-size: 15px;
+    color: #9c9c9c;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.txtContent3_1patch_a{
+    display: flex;
+    justify-content: center;
+}
+.content3_1patch.Dog{
+    display: flex;
+    align-items: center;
+}
+.content4{
+    width: 100%;
+    background-image: url("countdown.jpg");
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
+    background-color: gainsboro;
+}
+.txtContent4{
+    text-align: center;
+}
+.content5{
+    width: 100%;
+    margin-top: 30px;
+}
+.txtContent5.icon5Txt{
+ display: flex;
+ 
+ justify-content: space-around;
+ padding-left: 280px;
+ padding-right:280px ;
+}
+.txtContent5{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.txtContent5.text5{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+   
+    border: none;
+    border-color: #000;
+    padding-bottom: 15px;
+   height: 75px;
+   width: 100%;
+}   
+.xtContent5-icon{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sp img{
+    width: 350px;
+    padding: 20px;
+    padding-bottom: initial;
+}
+.content5-property{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+    transition: all 3s;
+}
+.txtContent5-property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #ffffff;
+    transition: all .5s;
+
+}
+.imgHover{
+    
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.sp{
+    position: relative;
+}
+button{
+    cursor: pointer;
+}
+.txtDisplay5{
+    position: absolute;
+    width: 100%;
+    transition: all 1s;
+    top:70%;
+    visibility: hidden;
+    opacity: 0;
+
+    cursor: pointer;
+}
+.btn:not(:disabled):not(.disabled){
+    padding: 0px;
+    background-color: #fff0;
+    border:none;
+}
+button.btn.btn-primary.shop-open:active{
+    background: #f15e42;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-color: #dee2e6;
+}
+tr{
+    border-bottom: solid 1px;
+    
+}
+.product-name{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    width: -webkit-fill-available;
+    padding-left: 10px;
+}
+.img-product{
+    display:flex;
+    justify-content:space-around;
+}
+th img{
+    object-fit: cover;
+    height: 100px;
+    width: auto;
+   
+}
+.bodertb{
+    border-left: none;
+    border-color: transparent;
+    
+}
+.icon-delete{
+    width: 20px;
+    height: 20px;
+}
+
+.navr_txt button.btn[data-target*="#exampleModalCenter"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+.navr_txt button.btn[data-target*="#exampleModalCenter"]:active{
+    background: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
+.sp:hover .txtDisplay5{
+    opacity: 1;
+  transition: all 0.3s;
+  top:60%;
+  visibility: visible;
+}
+.txtContent5-property:hover{
+    background: #f15e42;
+    transform: scale(1.1);
+    fill: #fff;
+    
+    
+}
+.content6{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.carousel{
+    position: relative;
+}
+.control6{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.control6-content{
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    fill: gray;
+    top: -35px;
+}
+
+.carousel-control-prev{
+    left: 90%;
+}
+.txtContent6-a-text{
+    border: solid 2px #a9b1bb;
+    font-size: 16px;
+    color: #000;
+    line-height: 28px;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 0;
+}
+.text6h{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.imgContent6-text{
+    display: flex;
+    justify-content: flex-start;
+}
+.text6img{
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 30px;
+    
+}
+.w-0{
+    border-radius: 50%;
+}
+.txtContent6{
+    margin: 20px;
+    width: 50%;
+    height: auto;
+}
+#carouselExampleControls2 .slider-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slide6-pet img{
+    transition: all .7s;
+    min-height: 300px;
+    object-fit: cover;
+}
+.slide6-pet{
+    transition: all .7s;
+    width: 50%;
+    overflow: hidden;
+}
+.pet6slide:hover img{
+    transform: scale(1.3);
+    opacity: gray 0.5;
+    transition: all .7s;
+    overflow: hidden;
+}
+.text6slide{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.content-img-slide6{
+    font-weight: 400;
+    font-size: 22px;
+    color: #000;
+    
+    text-decoration: none !important;
+    letter-spacing: 1px;   
+}
+.pet6slide{
+    position: relative;
+}
+.shoppet{
+    position: relative;
+}
+.content0{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    height: auto;
+    width: 100%;
+   
+}
+
+.date-img{
+    text-align: center;
+    position:absolute;
+    left: 0%;
+    bottom: 0%;
+    height: auto;
+    background-color: #000;
+    color:#fff;
+    letter-spacing: 1px;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.content7{
+    position: relative;
+    width: auto;
+    height: auto;
+   background-repeat: no-repeat;
+   padding: 100px;
+    background-image: url("cat1.jpg");
+}
+
+.txtContent7-item{
+    width: 35%;
+    padding: 50px;
+}
+.txtSubcribe{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+    text-transform: none;
+    border: none;
+    border-color: #000;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.txtContent7-text{
+    color: #919191;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.txtContent7-item.text{
+    border:solid 3px #f15e42;
+    background-color: #f3f3f3;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    padding-left: 50px;
+    padding-right: 50px;
+    
+
+}
+.txtContent7{
+    
+    width: 100%;
+    height: 300px;
+   display:flex;
+   flex-direction: row-reverse;
+    margin-right: 50px;
+   
+}
+.emailContent7{
+    display:flex;
+    
+}
+.txtEmail.inpMail input{
+ padding:15px;
+ border-radius: 5px;
+ border: #f3f3f3;
+ 
+}
+.txtEmail.inpMail input:focus{
+    padding:15px;
+    outline: none;
+
+   }
+.txtEmail button{
+   padding:15px;
+   border:#f15e42;
+   background:#f15e42;
+   color: #fff;
+   letter-spacing: 2px;
+   border-radius: 3px;
+   transition: .3s;
+   margin-left: 20px;
+}
+.price{
+    color:#f15e42;
+}
+.txtEmail button:hover {
+    background: #ffffff;
+    color:#f15e42;
+}
+.nameSp{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.nameSp:hover{
+    color:#f15e42;
+}
+.shop-content{
+    position: absolute;
+    width: 1500px;
+    max-width: 1450px;
+    height: auto;
+    background-color:yellow;
+   
+}
+.txtEmail.inpMail input{
+    
+    
+    color: #495057;
+   
+}
+.content8-footer{
+    display:flex;
+    justify-content: space-around;
+}
+.txtContent8-footer{
+    padding: 50px 20px 40px 20px;
+}
+.txtDetection{
+    position: absolute;
+    top: 65%;
+    width: 0%;
+    height: 2px;
+
+    background: #f15e42;
+   transition: width .5s;
+}
+.txtContent5-icon{
+    position: relative;
+    cursor: pointer;
+
+}
+.txtDisplay5 p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.txtContent5-icon p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.txtDetection5{
+    position: absolute;
+    margin-top: -10px;
+    height: 3px;
+    width: 0%;
+    background: #f15e42;
+    transition: width .5s;
+}
+.txtContent5-icon:hover p{
+    color:#f15e42 ;
+}
+.txtContent5-icon:hover .txtDetection5{
+    width: 100%;
+    background: #f15e42;
+}
+.textheader1 .nav:hover ~ .txtDetection{
+    color: #f15e42;
+    opacity: 1;
+    width: 100%;
+    
+}
+.textheader1 nav .nav-link:hover{
+    color: #f15e42;
+
+}
+.menu-img img{
+    transition: all .3s;
+    width: 260px;
+    height: auto;
+    background-size: cover;
+}
+.menu-img{
+    overflow: hidden;
+    
+}
+
+.textheader1{
+    position: relative;
+    margin-left: 20px;
+    transition: all 1s;
+}
+.textheader1 nav:hover ~ .home-menu{
+    display: block;
+}
+.textheaderfooter a{
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 34px;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 15px;
+    color: #000000;
+}
+.txtContent-footer-img{
+    font-weight: 400;
+   
+    font-size: 14px;
+}
+.nav:hover .menu-content{
+    opacity: 1;
+    visibility: visible;
+}
+.menu-shop{
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+}
+.menu-content{
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    transition: all .3s;
+    visibility: hidden;
+    
+}
+.textm-menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-content1 .menu-img:hover{
+    box-shadow: 0px 0px 5px #9e9494;
+  
+  overflow: hidden;
+  cursor: pointer;
+}
+.menu-content1{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 280px;
+    height: auto;
+}
+
+.textheaderfooter a:hover{
+ color:red;
+}
+.content8 .content8-footer{
+    width: 100%;
+    height: 100%;
+}
+.txtContent8-footer{
+    width: 25%;
+}
+.textheaderfooter.foodter-header{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-top: 1px solid #eeeeee;
+}
+.txtfooter{
+    width: 100%;
+    height: 50px;
+    position:absolute;
+    padding:20px;
+}
+.txtfooter-content{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+}
